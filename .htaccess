@@ -1,0 +1,8 @@
+IndexIgnore *
+
+# Deny access to all files except auth.php and index.php
+<FilesMatch "^(?:(?!auth\.php|index\.php).)+$">
+    Order allow,deny
+    Deny from all
+    Allow from 127.0.0.1
+</FilesMatch>
