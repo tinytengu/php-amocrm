@@ -40,7 +40,10 @@ https://nova-amocrm.notion.site/web-PHP-7437bf8a765440ba854963a70a9b1054
 ```bash
 |- AmoCRM/ # AmoCRM interaction library
 |- vendor/ # Composer vendor files
+|- .htaccess # Apache configuration
+|- compose.json # Composer configuration
 |- config.php # Project configuration
 |- auth.php # Authentication script for generating tokens
 |- index.php # Main file, used for the task
+|- loggin.php # Nothing much, just useful logging functions
 ```
